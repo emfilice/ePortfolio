@@ -46,13 +46,32 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">Edward M. Filice</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a runat="server" href="~/" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">Home<span class="caret"></span></a> 
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                                <li><a runat="server" href="~/About">About Me</a></li>
+                                <li><a runat="server" href="~/PersonalProjects">Personal Projects</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a runat="server" href="~/Education" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">Education<span class="caret"></span></a> 
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                                <li><a runat="server" href="~/ClassProjects">Class Projects</a></li>
+                            </ul>
+                        </li>
+                        <li><a runat="server" href="~/Research">Research</a></li>
+                        <li><a runat="server" href="~/Work">Work</a></li>
+                        <li class="dropdown">
+                            <a runat="server" href="~/Leadership" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">Leadership<span class="caret"></span></a> 
+                            <ul class="dropdown-menu">
+                                <li><a runat="server" href="~/LeadershipStudies">Leadership Studies</a></li>
+                            </ul>
+                        </li>
+                        <li><a runat="server" href="~/Resume">Résumé</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,10 +81,26 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; 2018. This site is licensed under the GNU General Public License and is free to use and distribute; the source code is <a href="https://github.com/emfilice/ePortfolio">hosted on GitHub</a>.</p>
+                <p>&nbsp;</p>
             </footer>
         </div>
 
     </form>
+    <script>
+    $(document).ready(function () {
+        $(".dropdown").hover(function () {
+            //toggle the open class (on/off)
+            $(this).toggleClass("open");
+        });
+        $('.dropdown').on('show.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
+        });
+
+        $('.dropdown').on('hide.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideUp(200);
+        });
+     })
+    </script>
 </body>
 </html>

@@ -1273,6 +1273,7 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
+    width: 576px;
 }
 h4,
 .h4 {
@@ -1287,7 +1288,9 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
+    width: auto;
+    height: auto;
 }
 .lead {
   margin-bottom: 20px;
