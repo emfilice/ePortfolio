@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Research" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Research.aspx.cs" Inherits="ePortfolio.Research" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server" href="~/css/Site.css">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Undergraduate Research</h2>
     <p>
         During the summer of 2017, I participated in Research Experience for Undergraduates, a summer program through the College of Natural Sciences and Mathematics. The program paired participants up with a mentor, who then assigned them a topic.</p>
@@ -15,5 +15,13 @@
     <h3>
         Results</h3>
     <p>
-        After discovering several features which had a significantly different </p>
+        After discovering several features which looked significantly different in the phishing dataset than in the ham dataset, and testing this difference with a t-test, I found 9 features which were usable. Using these 9 features on a Random Forest classifier, I was able to obtain the following results:</p>
+    <ul>
+        <li>&nbsp;Random Forest with 10-fold cross-training had an F-Score of 0.919</li>
+        <li>9 features had maximum Information Gain of 0.112. 7 of 9 had IG of 0.05 or better</li>
+        <li>Area under ROC (curve representing false positive rate vs true positive rate) was 0.976. Output from Weka:</li>
+    </ul>
+    <div style="text-align: center;">
+        <asp:Image ID="Image3" runat="server" ImageAlign="Middle" ImageUrl="~/Resources/ROC.png" />
+    </div>
 </asp:Content>

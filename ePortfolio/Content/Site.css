@@ -24,6 +24,20 @@ br {
 br.clear { clear: both;
 }
 
+a.icon-block {
+    display: inline-block;
+    width: 10em;
+    float: left;
+    text-align: center;
+}
+
+    a.icon-block i,
+    a.icon-block span {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

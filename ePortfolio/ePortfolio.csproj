@@ -33,6 +33,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <NoWarn>
+    </NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -129,14 +131,20 @@
     <Content Include="Leadership.aspx" />
     <Content Include="PersonalProjects.aspx" />
     <Content Include="Resources\12279231_10207983219561920_2297506840115110189_n.jpg" />
+    <Content Include="Resources\docx_icon.png" />
     <Content Include="Resources\DrVerma.jpg" />
     <Content Include="Resources\IMG_20170703_155618.jpg" />
+    <Content Include="Resources\pdf_icon.png" />
     <Content Include="Resources\Received-Fields.bmp" />
+    <Content Include="Resources\ROC.png" />
+    <Content Include="Resources\tex_icon.png" />
     <Content Include="Resume.aspx" />
     <Content Include="Work.aspx" />
     <Content Include="Resources\REU-Poster-FINAL.pdf" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Resources\Resume.pdf" />
+    <Content Include="Resources\Resume.tex" />
+    <Content Include="Resources\Resume.docx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Research.aspx" />
     <Content Include="Scripts\bootstrap.js" />
