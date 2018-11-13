@@ -127,12 +127,16 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Leadership.aspx" />
-    <Content Include="LeadershipStudies.aspx" />
     <Content Include="PersonalProjects.aspx" />
+    <Content Include="Resources\12279231_10207983219561920_2297506840115110189_n.jpg" />
+    <Content Include="Resources\DrVerma.jpg" />
     <Content Include="Resources\IMG_20170703_155618.jpg" />
+    <Content Include="Resources\Received-Fields.bmp" />
     <Content Include="Resume.aspx" />
     <Content Include="Work.aspx" />
     <Content Include="Resources\REU-Poster-FINAL.pdf" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Resources\Resume.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Research.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -219,13 +223,6 @@
     <Compile Include="Leadership.aspx.designer.cs">
       <DependentUpon>Leadership.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LeadershipStudies.aspx.cs">
-      <DependentUpon>LeadershipStudies.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LeadershipStudies.aspx.designer.cs">
-      <DependentUpon>LeadershipStudies.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Research.aspx.cs">
       <DependentUpon>Research.aspx</DependentUpon>
@@ -250,12 +247,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

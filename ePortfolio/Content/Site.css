@@ -17,8 +17,11 @@ select,
 textarea {
     max-width: 280px;
 }
+br {
+    padding-top: 30px;
+}
 
- {
+br.clear { clear: both;
 }
 
 
