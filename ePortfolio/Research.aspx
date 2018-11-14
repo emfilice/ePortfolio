@@ -3,11 +3,14 @@
     <h2>Undergraduate Research</h2>
     <p>
         During the summer of 2017, I participated in Research Experience for Undergraduates, a summer program through the College of Natural Sciences and Mathematics. The program paired participants up with a mentor, who then assigned them a topic.</p>
-    <p>
+    <div>
+        <figure class="figure" style="display: block; float: right;">
         <a href="http://www2.cs.uh.edu/~rmverma/">
-        <asp:Image ID="Image1" runat="server" ImageAlign="Right" ImageUrl="~/Resources/DrVerma.jpg" />
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Resources/DrVerma.jpg" style="display:block; padding-bottom: 0px;"/>
+            <figcaption class="figure-caption" style="text-align: center">Visit Dr. Verma's site</figcaption>
         </a>
-        My mentor was Dr. Rakesh Verma, a professor in the Computer Science department specializing in machine learning and natural language processing. Dr. Verma has written numerous papers on email phishing detection, and as such most of his research is focused in this area. Phishing is a growing problem, so the ability for a machine to distinguish phishing emails from non-spam or &quot;ham&quot; emails is of growing importance. So this is where I began. Dr. Verma already had another student working on email headers, so he suggested I start there. </p><br clear="all"/>
+        </figure>
+        My mentor was Dr. Rakesh Verma, a professor in the Computer Science department specializing in machine learning and natural language processing. Dr. Verma has written numerous papers on email phishing detection, and as such most of his research is focused in this area. Phishing is a growing problem, so the ability for a machine to distinguish phishing emails from non-spam or &quot;ham&quot; emails is of growing importance. So this is where I began. Dr. Verma already had another student working on email headers, so he suggested I start there. </div><br style="clear: both;"/>
     <p>
         <asp:Image ID="Image2" runat="server" ImageAlign="Left" ImageUrl="~/Resources/Received-Fields.bmp" Height="135px" Width="375px"/>My research focused on email headers, and focused on the Received: field specifically, a field which is stamped onto the header by each SMTP server on its way to the recipient. This field, which can have multiple instances in an email header, has several subfields; the most notable of these are the &#39;from&#39; and &#39;by&#39; fields, which dictate the address of the SMTP server that sent the email and the address of the receiving SMTP server, respectively. As such, one can trace an email back through these fields to the source, and see everywhere it landed along the way in order. Previous research on this field has been used to try to geographically locate spam servers, but my research took a more NLP-inspired approach, examining these fields and measuring them on features like their length or recurrence of a particular character.</p>
     <p>

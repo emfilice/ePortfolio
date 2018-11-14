@@ -20,8 +20,6 @@
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
                 <asp:ScriptReference Name="bootstrap" />
@@ -48,29 +46,21 @@
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">Edward M. Filice</a>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown" style="">
+                <%--For future development, dropdown menus can be constructed like this:
+                    <li class="dropdown" style="">
                             <a runat="server" href="~/" class="dropdown-toggle" aria-haspopup="true" role="button" aria-expanded="false">Home<span class="caret"></span></a> 
                             <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
                                 <li><a runat="server" href="~/About">About Me</a></li>
-                                <li><a runat="server" href="~/PersonalProjects">Personal Projects</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a runat="server" href="~/Education" class="dropdown-toggle" aria-haspopup="true" role="button" aria-expanded="false">Education<span class="caret"></span></a> 
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-                                <li><a runat="server" href="~/ClassProjects">Class Projects</a></li>
-                            </ul>
-                        </li>
+                    --%>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/About">About Me</a></li>
+                        <li><a runat="server" href="~/Education">Education</a></li>
                         <li><a runat="server" href="~/Research">Research</a></li>
                         <li><a runat="server" href="~/Work">Work</a></li>
-                        <li class="dropdown">
-                            <a runat="server" href="~/Leadership" class="dropdown-toggle" aria-haspopup="true" role="button" aria-expanded="false">Leadership<span class="caret"></span></a> 
-                            <ul class="dropdown-menu">
-                                <li><a runat="server" href="~/LeadershipStudies">Leadership Studies</a></li>
-                            </ul>
-                        </li>
+                        <li><a runat="server" href="~/Leadership">Leadership</a></li>
                         <li><a runat="server" href="~/Resume">Résumé</a></li>
                     </ul>
                 </div>
