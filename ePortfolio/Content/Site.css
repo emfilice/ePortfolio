@@ -21,9 +21,6 @@ br {
     padding-top: 30px;
 }
 
-br.clear { clear: both;
-}
-
 a.icon-block {
     display: inline-block;
     width: 10em;
