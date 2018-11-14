@@ -108,7 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="ClassProjects.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -129,7 +128,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Leadership.aspx" />
-    <Content Include="PersonalProjects.aspx" />
     <Content Include="Resources\12279231_10207983219561920_2297506840115110189_n.jpg" />
     <Content Include="Resources\docx_icon.png" />
     <Content Include="Resources\DrVerma.jpg" />
@@ -138,6 +136,7 @@
     <Content Include="Resources\Received-Fields.bmp" />
     <Content Include="Resources\ROC.png" />
     <Content Include="Resources\tex_icon.png" />
+    <Content Include="Resources\UH-Cullen.JPG" />
     <Content Include="Resume.aspx" />
     <Content Include="Work.aspx" />
     <Content Include="Resources\REU-Poster-FINAL.pdf" />
@@ -193,13 +192,6 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="ClassProjects.aspx.cs">
-      <DependentUpon>ClassProjects.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ClassProjects.aspx.designer.cs">
-      <DependentUpon>ClassProjects.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -266,13 +258,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="PersonalProjects.aspx.cs">
-      <DependentUpon>PersonalProjects.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PersonalProjects.aspx.designer.cs">
-      <DependentUpon>PersonalProjects.aspx</DependentUpon>
     </Compile>
     <Compile Include="Work.aspx.cs">
       <DependentUpon>Work.aspx</DependentUpon>
