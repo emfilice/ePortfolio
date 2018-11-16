@@ -12,12 +12,11 @@
         <li>Languages used: Bash</li>
         <li>Skills developed: Software packaging, use of AIX systems</li>
     </ul>
-    <p style="height: 80px">
+    <p>
         My first project was to oversee the configuration and deployment of IBM Spectrum Protect (ISP), which is backup software, for 70 client machines in the Honors College. Given a list of client (node) names and passwords, I had to package the application installer with a postinstall script to properly configure the machine, as well as a custom script to check if a client has a node on the backup server to use. We didn&#39;t want to distribute the passwords, and there was no intuitive way to authenticate a machine with the backup server using the command line, so I had to discover a way to use other commands to make the connection. Between the sparse documentation and the lack of information available online, configuring these scripts was a pain.</p>
-    <p style="height: 60px">
+        <p>
         Once the software was properly packaged and the scripts correctly configured, my job with ISP switched over to management. I oversaw, and still oversee, all the clients to ensure they were and are successful in their backups. When a machine misses its backup it&#39;s my job to figure out why, and the level of immersion into ISP&#39;s command line interface made me the point man for any questions regarding its use.</p>
-    <h3 style="height: 28px">
-        Payeezy Payments Project</h3>
+    <h3>Payeezy Payments Project</h3>
     <ul>
         <li>Languages used: PHP, MySQL</li>
         <li>Skills developed: Developing RESTful API, customizing software</li>
