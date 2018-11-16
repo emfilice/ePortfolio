@@ -4,13 +4,21 @@
     <h1>Welcome!</h1>
     <p>My name is Eddie Filice, and I&#39;m an aspiring software engineer and current Computer Science student at the University of Houston. This is my ePortfolio, and it goes in depth into who I am and what I can offer to the world.</p>
     <h2>At a glance...</h2>
-    <asp:Panel ID="Panel1" runat="server" Width="324px">
-        <asp:Panel ID="Panel2" runat="server">
-        </asp:Panel>
-    </asp:Panel>
-    <p>
-    </p>
-    <p>
-        &nbsp;</p>
+    <div>
+    <span style="width: 350px; display: table-cell">
+        <h2>About Me</h2>
 
+    </span>
+    <span style="width: 350px; display: table-cell">
+        <h2>Education</h2>
+    </span>
+    </div>
+    <div>
+    <span style="width: 350px; display: table-cell">
+        <h2>Leadership</h2>
+    </span>
+    <span style="width: 350px; display: table-cell">
+        <h2>Research</h2>
+    </span>
+    </div>
 </asp:Content>

@@ -10,10 +10,9 @@
         <li>Member of the Honors College</li>
         <li>Awards and Scholarships: National Merit Scholarship, Phi Beta Kappa</li>
     </ul>
-        Relevant Coursework: 
-        
-    </div>    
+    </div>
     <br style="clear: both"/>
+        <hRelevant Coursework (click to expand):
         <div id="flip1" class="flip">COSC 2430: Programming and Data Structures
         <div id="panel1" class="flippanel" style="border: 0px solid #D5CC5A; overflow: hidden; margin: 0px none;">
         <iframe scrolling="no" src="http://publications.uh.edu/content.php?filter%5B27%5D=-1&filter%5B29%5D=2430&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=31&expand=1&navoid=11769&search_database=Filter&filter%5Bexact_match%5D=1#acalog_template_course_filter" style="border: 0px none; margin-left: -280px; height: 762px; margin-top: -420px; width: 900px;">
