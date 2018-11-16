@@ -8,6 +8,7 @@
     My job as a student worker entails two main tasks-perform support for all the machines in the Honors College, and improve the infrastructure of the College through projects. I got the opportunity to complete two large projects.</p>
     <h3>
         IBM Spectrum Protect Configuration and Deployment</h3>
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/Resources/tsm.png" Width="700px"/>
     <ul>
         <li>Languages used: Bash</li>
         <li>Skills developed: Software packaging, use of AIX systems</li>
@@ -17,11 +18,11 @@
         <p>
         Once the software was properly packaged and the scripts correctly configured, my job with ISP switched over to management. I oversaw, and still oversee, all the clients to ensure they were and are successful in their backups. When a machine misses its backup it&#39;s my job to figure out why, and the level of immersion into ISP&#39;s command line interface made me the point man for any questions regarding its use.</p>
     <h3>Payeezy Payments Project</h3>
+    <asp:Image ID="Image2" runat="server" ImageUrl="~/Resources/MachForm.png" Height="207px" Width="696px" />
     <ul>
         <li>Languages used: PHP, MySQL</li>
         <li>Skills developed: Developing RESTful API, customizing software</li>
     </ul>
-
     <p>
         My next project was to modify MachForm, an HTML form creator used widely in the college, to allow it to interface with Payeezy, our payment service. MachForm had a number of built-in payment methods, but, as Payeezy is relatively small, none of these were similar enough to Payeezy to be able to exploit. MachForm was coded in PHP and utilized a MySQL database to store information, and my task was to rewrite its code to use its webhook function to send custom variables to a webhook and access a remotely hosted payment page.</p>
     <p>

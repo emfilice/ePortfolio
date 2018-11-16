@@ -132,10 +132,12 @@
     <Content Include="Resources\docx_icon.png" />
     <Content Include="Resources\DrVerma.jpg" />
     <Content Include="Resources\IMG_20170703_155618.jpg" />
+    <Content Include="Resources\MachForm.png" />
     <Content Include="Resources\pdf_icon.png" />
     <Content Include="Resources\Received-Fields.bmp" />
     <Content Include="Resources\ROC.png" />
     <Content Include="Resources\tex_icon.png" />
+    <Content Include="Resources\tsm.png" />
     <Content Include="Resources\UH-Cullen.JPG" />
     <Content Include="Resume.aspx" />
     <Content Include="Work.aspx" />
