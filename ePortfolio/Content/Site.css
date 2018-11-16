@@ -95,6 +95,10 @@ a.icon-block {
 
 }
 
+img {
+    margin-bottom: 0px;
+}
+
 @media (max-width: 767px) {
     .navbar-collapse .nav > .divider-vertical {
         display: none;
