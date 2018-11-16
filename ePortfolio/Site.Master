@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Eddie Filice's ePortfolio</title>
+    <title><%: Page.Title %> - Eddie Filice</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -39,11 +39,11 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <%--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
+                    </button>--%>
                     <a class="navbar-brand" runat="server" href="~/">Edward M. Filice</a>
                 </div>
                 <%--For future development, dropdown menus can be constructed like this:
@@ -57,10 +57,15 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/About">About Me</a></li>
+                        <li class="divider-vertical"></li>
                         <li><a runat="server" href="~/Education">Education</a></li>
+                        <li class="divider-vertical"></li>
                         <li><a runat="server" href="~/Research">Research</a></li>
+                        <li class="divider-vertical"></li>
                         <li><a runat="server" href="~/Work">Work</a></li>
+                        <li class="divider-vertical"></li>
                         <li><a runat="server" href="~/Leadership">Leadership</a></li>
+                        <li class="divider-vertical"></li>
                         <li><a runat="server" href="~/Resume">Résumé</a></li>
                     </ul>
                 </div>
@@ -69,7 +74,7 @@
         <div class="container body-content" style="width: 700px">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
+            <hr style="clear: both;"/>
             <footer>
                 <p>See something you like? Want to imitate an element or page? The source code for this site is <a href="https://github.com/emfilice/ePortfolio">available on GitHub</a>.</p>
                 <p>&nbsp;</p>
@@ -85,6 +90,9 @@
             }, function () {
                 $(this).find('.dropdown-menu').stop(true, true).slideUp('fast');
                 $(this).removeClass('open');
+                });
+            $(".flip").click(function(){
+                $(this).find(".flippanel").slideToggle("fast");
             });
         })
     </script>

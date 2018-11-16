@@ -2,11 +2,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Welcome!</h1>
-    <p>At a glance:</p>
-    <ul>
-        <li>Computer Science student hoping to become a software engineer (see About Me page)</li>
-        <li>Completed many projects in classes (see Class Projects page), at work (see Work page), and in my spare time (see Personal Project page)</li>
-        <li>Lots of involvement at UH, in organizations that helped me build leadership skills (see Leadership page)</li>
-    </ul>
+    <p>My name is Eddie Filice, and I&#39;m an aspiring software engineer and current Computer Science student at the University of Houston. This is my ePortfolio, and it goes in depth into who I am and what I can offer to the world.</p>
+    <h2>At a glance...</h2>
+    <asp:Panel ID="Panel1" runat="server" Width="324px">
+        <asp:Panel ID="Panel2" runat="server">
+        </asp:Panel>
+    </asp:Panel>
+    <p>
+    </p>
+    <p>
+        &nbsp;</p>
 
 </asp:Content>
